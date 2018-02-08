@@ -1,7 +1,0 @@
-23:31:56 **** Incremental Build of configuration Debug for project Arithmetic_TwoNumbers ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Arithmetic_TwoNumbers.o" "..\\src\\Arithmetic_TwoNumbers.cpp" 
-g++ -o Arithmetic_TwoNumbers.exe "src\\Arithmetic_TwoNumbers.o" 
-
-23:31:58 Build Finished (took 1s.863ms)
-

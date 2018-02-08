@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Area_Perimeter_Advanced/src/Area_Perimeter_Advanced&apos; to &apos;Area_Perimeter_Advanced.cpp&apos;" description="Rename resource &apos;Area_Perimeter_Advanced&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Area_Perimeter_Advanced" name="Area_Perimeter_Advanced.cpp" stamp="1517618283015" updateReferences="true"/>
-</session>
