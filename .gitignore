@@ -2,10 +2,17 @@
 .metadata/*
 remoteSystemsTempFiles/*
 
-#Debug/ Run files
-.settings/*
-.cproject/*
-.project/*
-Debug/*
-.exe/*
-.o/*
+#Compliled Object Files
+*.o
+*.xml
+
+#Executables
+*.exe
+
+#Eclipse stuff
+*.prefs
+*.ini
+*.log
+*.lock
+*.mylyn
+*.project
