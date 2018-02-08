@@ -1,18 +1,14 @@
-# Ignoring Workspace/ Debug
-.metadata/*
-remoteSystemsTempFiles/*
-
-#Compliled Object Files
-*.o
-*.xml
-
-#Executables
-*.exe
-
-#Eclipse stuff
-*.prefs
-*.ini
-*.log
-*.lock
-*.mylyn
+#Eclipse IDE Generated Files 
+RemoteSystemsTempFiles/*
+\.metadata/*
+*/\.metadata/*
+\.settings/*
+Debug/*
+*/Debug/*
+*.cproject
 *.project
+
+#Exectuables & Object Files
+*.o
+*.exe
+*.xml
