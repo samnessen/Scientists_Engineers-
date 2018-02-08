@@ -1,0 +1,14 @@
+#Eclipse IDE Generated Files 
+RemoteSystemsTempFiles/*
+\.metadata/*
+*/\.metadata/*
+\.settings/*
+Debug/*
+*/Debug/*
+*.cproject
+*.project
+
+#Exectuables & Object Files
+*.o
+*.exe
+*.xml
