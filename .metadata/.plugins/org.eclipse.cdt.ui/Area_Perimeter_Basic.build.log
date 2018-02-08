@@ -1,0 +1,7 @@
+20:32:01 **** Incremental Build of configuration Debug for project Area_Perimeter_Basic ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Area_Perimeter_Basic.o" "..\\src\\Area_Perimeter_Basic.cpp" 
+g++ -o Area_Perimeter_Basic.exe "src\\Area_Perimeter_Basic.o" 
+
+20:32:03 Build Finished (took 1s.994ms)
+

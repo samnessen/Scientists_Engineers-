@@ -1,0 +1,77 @@
+/****************************************************
+**** Conversions of common units for engineering ***
+****************************************************/
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+/* Function Definitions*/
+void Kelvin_Conversion(char tempUnit, double tempValue);
+
+
+int main()
+{
+    char tempUnit, kelvin;
+    double farhenheit, celsius, kelvinValue;
+    double tempValue;
+
+    cout << " Program is a conversion of temperature units for fahrenheit, celsius, & kelvin (note: precision is at 2)\n";
+    cout << "enter f or c to define current temperatures units \n";
+    cin >> tempUnit;
+    cout << "Enter value in degress: \n";
+    cin >> tempValue;
+
+    if (tempUnit == 'f') {
+        celsius = (5.0 / 9.0) * tempValue + 32.0;
+        cout << "\n Fahrenheit -> Celsius is: " << celsius << " degrees \n" << endl;
+    } else if (tempUnit == 'c') {
+        farhenheit = (9.0 / 5.0) * tempValue + 32.0;
+        cout << "\n Celsius -> Fahrenheit is: " << farhenheit << " degrees \n" << endl;
+	} else {cout << "wrong unit value";}
+    /* conversion to kelvin */
+    cout <<"would you like to convert to Kelvin,   yes or no\n   y or n ";
+    cin >> kelvin;
+
+   /* if ( (kelvin != 'n') && (tempUnit == 'c') ) {
+    	kelvinValue = tempValue + 273.15;
+    	cout << "Celsius -> Kelvin is: " << kelvinValue << " K";
+    } else if ( (kelvin != 'n') && (tempUnit == 'f') ) {
+    	kelvinValue = celsius + 273.15;
+    	cout << "Celsius -> Kelvin is: " << kelvinValue << " K";
+    } else
+    	cout << "good bye"; */
+
+    Kelvin_Conversion(char tempUnit, double tempValue);
+
+
+    return 0;
+}
+
+/* Function declerations */
+double Farhenheit_TO_Celsius(double tempValue)
+{
+	double farhenheit = (9.0 / 5.0) * tempValue + 32.0;
+	return farhenheit;
+}
+double Celsius_TO_Farhenheit(double tempValue)
+{
+	double celsius = celsius = (5.0 / 9.0) * tempValue + 32.0;
+	return celsius;
+}
+void Kelvin_Conversion(char tempUnit, double tempValue)
+{
+	double kelvinValue;
+	if (tempUnit == 'c') {
+	    /* conversion of celsius */
+		kelvinValue = Celsius_TO_Farhenheit + 273.15;
+	    cout << "Celsius -> Kelvin is: " << kelvinValue << " K";
+	} else if (tempUnit == 'f') {
+	    kelvinValue = Farhenheit_TO_Celsius + 273.15;
+	    cout << "Celsius -> Kelvin is: " << kelvinValue << " K";
+	} else
+	    cout << "good bye";
+}
+
+
+
+

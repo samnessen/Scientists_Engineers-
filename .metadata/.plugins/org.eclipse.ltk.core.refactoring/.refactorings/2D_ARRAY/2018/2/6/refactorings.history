@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;2D_ARRAY/src/grade_avg&apos; to &apos;grade_avg.cpp&apos;" description="Rename resource &apos;grade_avg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/grade_avg" name="grade_avg.cpp" stamp="1518051529691" updateReferences="true"/>
+</session>

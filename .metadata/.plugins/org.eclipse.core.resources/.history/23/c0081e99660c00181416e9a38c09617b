@@ -1,0 +1,49 @@
+/***************************************************************
+ ****	Program determines the maximum number in an array	****
+ ***************************************************************/
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+const int ROWS = 4; /* rows */
+const int COLMS = 5;  /* columns */
+
+/* Function Prototype */
+void display(int [ROWS][COLMS] );
+void findMax(int [ROWS][COLMS] );
+
+int main()
+{
+    int array[ROWS][COLMS] = { 16,  22, 99,  4,  18,
+                                   -258, 4,  101, 5,  98,
+                                    105, 6,  15,  2,  45,
+                                    33,  88, 72,  16, 3  };
+    cout << "20 Elements of the array are:" << endl; //4x5 array = 20 elements
+    display(array);
+    cout << endl;
+    findMax(array); // calling function line
+    return 0;
+}
+
+/* Function Definition */
+void display(int array[ROWS][COLMS])
+{
+       for (int i=0; i<ROWS; i++) //count rows
+       {
+    	   for (int j=0; j<COLMS; j++) //count colms
+    		   cout << "\t" << setw(2) << left << array[i][j]; //display the x array in rows by columns
+               cout << endl;
+        }
+}
+void findMax(int array[ROWS][COLMS])
+{
+    int max = array[0][0];
+    for (int i=0; i<ROWS; i++)
+    {
+        for (int j=0; j<COLMS; j++)
+        if (array[i][j] > max)
+        max = array[i][j];
+    }
+    cout << "Maximum value of the array is:  " << max;
+    cout << endl;
+}

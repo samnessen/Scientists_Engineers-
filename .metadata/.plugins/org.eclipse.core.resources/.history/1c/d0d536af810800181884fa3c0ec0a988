@@ -1,0 +1,35 @@
+/****************************************************
+**** Conversions of common units for engineering ***
+****************************************************/
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    char tempType;
+    double temp, farhen, celc;
+
+    cout << "enter temp to be converted ";
+    cin >> temp;
+    cout << "enter f or c to define temp ";
+    cin >> tempType;
+
+    //out put formats
+    cout << setiosflags (ios::fixed)
+         << setiosflags (ios::showpoint)
+         << setprecision(2);
+
+    if (tempType == 'f')
+    {
+        celc = (5.0 / 9.0) * temp + 32.0;
+        cout << "\n The Celsius temp is: " << celc << endl;
+    }
+    else
+    {
+        farhen = (9.0 / 5.0) * temp + 32.0;
+        cout << "\n The Fahrenheit temperature is " << farhen << endl;
+    }
+
+    return 0;
+}
