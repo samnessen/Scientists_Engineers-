@@ -1,7 +1,7 @@
-/****************************************
-****	User Input for Arithmetic	****
-****		  of Two Numbers		****
-****************************************/
+/********************************
+*	User Input for Arithmetic	*
+*		  of Two Numbers		*
+*********************************/
 
 #include <iostream>
 using namespace std;

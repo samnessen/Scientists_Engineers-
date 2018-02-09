@@ -1,7 +1,7 @@
-/************************************
- ****	Program Adds & Subtract *****
- ****	Two Arrays		        *****
- ***********************************/
+/*****************************
+ *	Program Adds & Subtracts *
+ *	Using Two Arrays		 *
+ *****************************/
 
 #include <iostream>
 #include <iomanip>

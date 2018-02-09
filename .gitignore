@@ -2,7 +2,7 @@
 RemoteSystemsTempFiles/*
 \.metadata/*
 */\.metadata/*
-\.settings/*
+.settings/*
 Debug/*
 */Debug/*
 *.cproject
@@ -12,3 +12,4 @@ Debug/*
 *.o
 *.exe
 *.xml
+/.metadata/

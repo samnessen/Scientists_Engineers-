@@ -1,9 +1,9 @@
-/*********************************
- ****	   Grading Program	  ****
- ****      	  that does		  ****
- ****      Student Averages   ****
- ****  	   & Test Averages    ****
- *********************************/
+/**************************
+ *	   Grading Program	  *
+ *                   	  *
+ *     Student Averages   *
+ * 	   Test Averages      *
+ **************************/
 
 #include <iostream>
 #include <iomanip>

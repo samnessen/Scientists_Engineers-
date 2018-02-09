@@ -1,6 +1,8 @@
-/****************************************************
-*** Conversions for Celsius, Farhenheit, & Kelvin ***
-*****************************************************/
+/***********************************
+* Conversions for 				   *
+* 								   *
+* Celsius, Farhenheit, & Kelvin    *
+************************************/
 
 #include <iostream>
 #include <iomanip>

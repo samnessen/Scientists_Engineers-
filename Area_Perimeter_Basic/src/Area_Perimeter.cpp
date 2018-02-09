@@ -1,8 +1,10 @@
-/*********************************************************************************
-*****	  Program deterimes the area/ perimeter of a 2-D shape	            ******
-*****					Functions are of simple shapes						******
-*****					   Circle, Rectangle, & Triangle					******
-*********************************************************************************/
+/***********************************************
+*	Program Determines The Area & Perimeter    *
+*	For A 2-D shape	                           *
+*											   *
+*	Functions Use Simple Shapes				   *
+*	Circle, Rectangle, & Triangle			   *
+************************************************/
 
 #include<fstream>
 #include<iomanip>

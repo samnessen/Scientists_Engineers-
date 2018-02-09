@@ -1,9 +1,10 @@
-/*************************************
- ****	Program runs 2D- ARRAY	  ****
- ****	Displays the array		  ****
- ****	Finds maximum number 	  ****
- ****	Finds Average of each row ****
- ************************************/
+/******************************
+ *	Program Runs 2D- ARRAY	  *
+ *							  *
+ *	Displays The Array		  *
+ *	Finds Maximum Number 	  *
+ *	Finds Average of Each Row *
+ ******************************/
 
 #include <iostream>
 #include <iomanip>
