@@ -3,15 +3,17 @@
  * Deg to Rad and shows                *
  * value in sine                       *
  *                                     *
- * Program determines                  *
- * and their respective axis           *
+ * Program also determines             *
+ * where theta lies on an axis         *
  ***************************************/
 #include <iostream>
 #include <iomanip>
 #include <cmath>
 using namespace std;
+
 const double PI = acos(-1);
 const double DEG_TO_RAD = ( PI / 180.0000 );
+
 /*Prototype*/
 double sin_Rad(double angle);
 void quad(double angle);
@@ -28,6 +30,7 @@ int main()
          return 0;
 }
 /*Function Definition*/
+
 //conversion degree to radian, value in terms of sine()
 double sin_Rad(double angle)
 {
@@ -36,8 +39,6 @@ double sin_Rad(double angle)
          << "the sine of the angle is " << sin(angle * DEG_TO_RAD)
          <<endl<<endl;
 }
-
-
 void quad(double angle)
 {
     if (angle == 0 || angle == 90 || angle == 180 || angle == 270 || angle ==360)

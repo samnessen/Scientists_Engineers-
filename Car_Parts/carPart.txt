@@ -1,0 +1,3 @@
+ Car Number    Miles Driven      Gallon Gas Used
+ 54            250               19             
+ 62            525               38             
