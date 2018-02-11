@@ -62,10 +62,10 @@ ObliqueTriangle variablesOblique(ObliqueTriangle&, ObliqueTriangle&, ObliqueTria
 Circle variablesCircle(Circle&);
 void printRectangle(Rectangle&);
 void printTriangle(Triangle&);
+void printCircle(Circle&);
 void printOblique(ObliqueTriangle& a);
 void fileoutArrays(double&, double&);
 
-void printCircle(Circle&);
 int main()
 {
 	/*Variables for shapes*/
