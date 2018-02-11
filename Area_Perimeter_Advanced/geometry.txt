@@ -1,0 +1,6 @@
+		TESTER FILE SHOWS INPUTS & OUTPUTS FOR COMPLEX SHAPES
+
+rectangle [0] has area: 49
+rectangle [0] has perimeter: 14
+rectangle [1] has area: 36
+rectangle [1] has perimeter: 12
