@@ -10,7 +10,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib> /*exit stratigies*/
-#include <fstream>
+
 using namespace std;
 /*Prototype*/
 void getText (ofstream&, string& fname);

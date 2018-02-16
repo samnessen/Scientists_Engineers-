@@ -24,14 +24,17 @@ int main ()
     }
     double base1, base2, height;
     double area = area_Trapezoid(base1, base2, height);
-	outfile << "You entered in: \n"
+	/*print to the file*/
+    outfile << "\t\tFILE SHOWS AREA OF A TRAPEZOID\n\n"
+			<< "You entered in: \n"
 		    << "BASE1: "<< base1 <<endl
 		    << "BASE2: "<< base2 <<endl
 		    << "HEIGHT: "<< height << endl;
-    outfile <<"The area of trapezoid 1 is:   "<< area <<endl;
+    outfile <<"The area of trapezoid 1 is: "<< area <<endl;
     return 0;
 }
-/*Definition*/
+/*Function Definition*/
+//Calculate then print to the command line
 double area_Trapezoid(double& a, double& b, double& h)
 {
 	cout << "enter variables for a trapezoid \n" << " base1, base2, height \n";

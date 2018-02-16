@@ -1,4 +1,7 @@
+		FILE SHOWS AREA OF A TRAPEZOID
+
 You entered in: 
 BASE1: 1
 BASE2: 1
-HEIGHT: 2The area of trapezoid 1 is:   2
+HEIGHT: 2
+The area of trapezoid 1 is: 2
