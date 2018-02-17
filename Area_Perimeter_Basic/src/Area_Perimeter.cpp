@@ -15,8 +15,8 @@ using namespace std;
 #define PI acos(-1)  /*INVERSE COSINE*/
 
 // function prototype
-double square_Area(double length, double width);
-double square_Perimeter(double length, double width);
+double rectangle_Area(double length, double width);
+double rectangle_Perimeter(double length, double width);
 double triangle_Area(double height, double base);
 double triangle_Perimeter(double length1, double baseP, double length2);
 double circle_Perimeter(double radius);	
@@ -25,7 +25,7 @@ double circle_Area(double radius);
 int main() 
 {	 	
 	///variables for shapes_A
-	double areaSquare, perimeterSquare;
+	double areaRectangle, perimeterRectangle;
 	double areaTriangle, perimeterTriangle;
 	double areaCircle, perimeterCircle;
 	//variables for sides_A
@@ -33,9 +33,9 @@ int main()
 	double baseT, heightT, lengthT1, lengthT2;
 	double radiusC;
 	
-	cout << "enter a length for square 1: " << endl;
+	cout << "enter a length for rectangle 1: " << endl;
 	cin >> lengthS;
-	cout << "enter width for square 1: " << endl;
+	cout << "enter width for rectangle 1: " << endl;
 	cin >> widthS;
 	cout << "enter a base for triangle 1: " << endl;
 	cin >> baseT;
@@ -48,15 +48,15 @@ int main()
 	cout << "enter a radius for circle 1 to calculate the area and perimeter: " << endl;
 	cin >> radiusC;
 		
-	areaSquare = square_Area(lengthS, widthS);
-	perimeterSquare = square_Perimeter(lengthS, widthS);
+	areaRectangle = rectangle_Area(lengthS, widthS);
+	perimeterRectangle = rectangle_Perimeter(lengthS, widthS);
 	areaTriangle = triangle_Area(baseT, heightT);
 	perimeterTriangle = triangle_Perimeter(lengthT1, baseT, lengthT2);
 	areaCircle = circle_Area(radiusC);
 	perimeterCircle = circle_Perimeter(radiusC);
 	
-	cout << "The area of square 1 is: " << areaSquare << endl;
-	cout << "The perimeter of square 1 is: " << perimeterSquare << endl;
+	cout << "The area of rectangle 1 is: " << areaRectangle << endl;
+	cout << "The perimeter of rectangle 1 is: " << perimeterRectangle << endl;
 	cout << "The area of triangle 1 is: " << areaTriangle << endl;
 	cout << "The perimeter of triangle 1 is: " << perimeterTriangle << endl;
 	cout << "The area of cricle 1 is: " << areaCircle << endl;
@@ -70,14 +70,14 @@ int main()
 
 /* Function Decleartions */
 //calculate the area of square
-double square_Area(double length, double width) {	
+double rectangle_Area(double length, double width) {	
 	double area = length * width;
 	return area;
 }
 //calculate the perimeter of square
-double square_Perimeter(double length, double width) {
+double rectangle_Perimeter(double length, double width) {
 	double perimeter;	
-	perimeter = length + width;
+	perimeter = ( (length * 2) + (width * 2) );
 	return perimeter;
 }
 //calculate the area of a triangle
