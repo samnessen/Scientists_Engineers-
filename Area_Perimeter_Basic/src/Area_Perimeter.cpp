@@ -86,8 +86,8 @@ double triangle_Area(double height, double base) {
 	return area;
 }
 //Calculate perimeter of a triangle
-double triangle_Perimeter(double length1, double base, double length2) {	
-	double perimeter = ( length1 + base + length2 );
+double triangle_Perimeter(double length1, double base) {	
+	double perimeter = (length1 + base + sqrt( (side1*side1) + (base*base) ));
 	return perimeter;
 }
 //calculate the area of a circle
